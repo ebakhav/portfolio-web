@@ -7,16 +7,18 @@
         <div class="intro">
           <h1>Elvira Bakhavdunova</h1>
           <p class="subtitle"> 
-          Fine Arts Student
-          Content Creator
-          Director of Photography
+          I'm Multimedia artist based in Valencia, Spain, curentlly studying in UPV, fine arts faculty 
           </p>
-        </div>
+           <div class="specialties">
+            <span>Multimedia Artist</span>
+            <span>Photographer</span>
+            <span>Visual Artist</span>
+            <span>Director of Photography</span>
+           </div>
+          </div>
+       </div>
 
-        
-      </div>
-
-      <div class="hero-right">
+       <div class="hero-right">
         <img src="/portrait.jpg" alt="Elvira" />
       </div>
     </section>
@@ -82,11 +84,42 @@
   gap: 20px;
 }
 
+
 .hero-right img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+}
+ .hero-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+}
+
+.specialties {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 500px;
+  margin-top: 25px;
+}
+.specialties span {
+  background: #f1f1ef;
+  border: 1px solid #e7e7e5;
+  color: #777;
+  padding: 9px 12px;
+  font-size: 10px;
 }
 
 @media (max-width: 700px) {
@@ -103,7 +136,7 @@
   }
 }
 .subtitle {
-  width: 170px;
+  width: 320px;
   margin: 0 auto;
 }
 </style>
