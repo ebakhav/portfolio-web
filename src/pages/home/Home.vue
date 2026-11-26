@@ -1,10 +1,6 @@
 <template>
   <main class="portfolio">
-    <nav class="navigation">
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    
 
     <section class="hero">
       <div class="hero-left">
@@ -17,11 +13,7 @@
           </p>
         </div>
 
-        <div class="socials">
-          <a href="#">Instagram</a>
-          <a href="#">Behance</a>
-          <a href="#">Email</a>
-        </div>
+        
       </div>
 
       <div class="hero-right">
