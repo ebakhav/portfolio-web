@@ -70,6 +70,8 @@
   font-size: clamp(48px, 7vw, 100px);
   font-weight: 400;
   margin: 0;
+  position:relative;
+  top: -30px;
 }
 
 .intro p {
